@@ -1,3 +1,10 @@
-theme: jekyll-theme-architect
-title: ahoj
-description: ahoj
+title: Moje nová webovka
+description: Vítejte na mém osobním webu vytvořeném pomocí Jekyllu a GitHub Pages!
+theme: jekyll-theme-cayman
+
+# Navigace v horní liště (Cayman téma toto přímo nepoužívá,
+# ale hodí se to mít připravené pro budoucí rozšíření)
+show_downloads: false
+
+# Nastavení pro GitHub Pages
+markdown: kramdown
