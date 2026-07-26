@@ -3,7 +3,7 @@ layout: default
 title: Domů
 ---
 
-# 👋 Vítejte na mém webu!
+# 👋 Vítejte na mém webu! -Michal
 
 Jsem moc rád, že jste se sem zastavili. Tato stránka je postavená pomocí
 [Jekyllu](https://jekyllrb.com/) a hostovaná zdarma na **GitHub Pages** —
