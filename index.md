@@ -3,20 +3,22 @@ layout: default
 title: Domů
 ---
 
-<!-- ROZBALOVACI TLACITKO -->
-<div class="dropdown">
-  <button class="nav-btn" onclick="toggleMenu()">Menu ▾</button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="/">Domů</a>
-    <a href="/o-mne.html">O mně</a>
-    <a href="/kontakt.html">Kontakt</a>
 
-  <!-- TLACITKA -->
-  <div class="nav-wrapper">
-    <a href="/" class="nav-btn">Domů</a>
-    <a href="/o-mne.html" class="nav-btn">O mně</a>
-    <a href="/kontakt.html" class="nav-btn">Kontakt</a>
+<div class="nav-wrapper">
+<!-- ROZBALOVACI TLACITKO -->
+  <div class="dropdown">
+    <button class="nav-btn" onclick="toggleMenu()">Menu ▾</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="/">Domů</a>
+      <a href="/o-mne.html">O mně</a>
+      <a href="/kontakt.html">Kontakt</a>
+    </div>
   </div>
+  
+<!-- TLACITKA -->
+  <a href="/" class="nav-btn">Domů</a>
+  <a href="/o-mne.html" class="nav-btn">O mně</a>
+  <a href="/kontakt.html" class="nav-btn">Kontakt</a>
 </div>
 
 <script src="/assets/js/dropdown.js"></script>
