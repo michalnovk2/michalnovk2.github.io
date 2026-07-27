@@ -10,15 +10,16 @@ title: Domů
     <a href="/">Domů</a>
     <a href="/o-mne.html">O mně</a>
     <a href="/kontakt.html">Kontakt</a>
+
+<!-- TLACITKA -->
+<div class="nav-wrapper">
+  <a href="/" class="nav-btn">Domů</a>
+  <a href="/o-mne.html" class="nav-btn">O mně</a>
+  <a href="/kontakt.html" class="nav-btn">Kontakt</a>
   </div>
 </div>
 
 <script src="/assets/js/dropdown.js"></script>
-
-<!-- TLACITKA -->
-<a href="/" class="nav-btn">Domů</a>
-<a href="/o-mne.html" class="nav-btn">O mně</a>
-<a href="/kontakt.html" class="nav-btn">Kontakt</a>
 
 # 👋 Vítejte na mém webu! -Michal
 
