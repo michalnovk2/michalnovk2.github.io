@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+// Hlavička webu
 .page-header {
   background-image: url("/assets/images/pozadi.jpg");
   background-size: cover;
@@ -10,6 +11,7 @@
   background-attachment: fixed;
 }
 
+// Tlačítko menu nahoře
 .nav-btn {
   display: inline-block;
   padding: 8px 16px;
@@ -24,4 +26,36 @@
 
 .nav-btn:hover {
   opacity: 0.85;
+}
+
+// Rozbalovací tlačítko
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #159957 !important;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
 }
