@@ -13,9 +13,9 @@ title: Domů
 
   <!-- TLACITKA -->
   <div class="nav-wrapper">
-  <a href="/" class="nav-btn">Domů</a>
-  <a href="/o-mne.html" class="nav-btn">O mně</a>
-  <a href="/kontakt.html" class="nav-btn">Kontakt</a>
+    <a href="/" class="nav-btn">Domů</a>
+    <a href="/o-mne.html" class="nav-btn">O mně</a>
+    <a href="/kontakt.html" class="nav-btn">Kontakt</a>
   </div>
 </div>
 
