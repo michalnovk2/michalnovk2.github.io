@@ -3,6 +3,10 @@ layout: default
 title: Domů
 ---
 
+<a href="/" class="btn">Domů</a>
+<a href="/o-mne.html" class="btn">O mně</a>
+<a href="/kontakt.html" class="btn">Kontakt</a>
+
 # 👋 Vítejte na mém webu! -Michal
 
 Jsem moc rád, že jste se sem zastavili. Tato stránka je postavená pomocí
