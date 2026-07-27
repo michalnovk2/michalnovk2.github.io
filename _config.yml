@@ -1,6 +1,6 @@
 title: Moje nová webovka
 description: Vítejte na mém osobním webu vytvořeném pomocí Jekyllu a GitHub Pages!
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 # Navigace v horní liště (Cayman téma toto přímo nepoužívá,
 # ale hodí se to mít připravené pro budoucí rozšíření)
