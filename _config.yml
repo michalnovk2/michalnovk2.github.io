@@ -17,3 +17,7 @@ show_downloads: false
 
 # Nastavení pro GitHub Pages
 markdown: kramdown
+
+# Vyhledávání podstránek
+plugins:
+  - jekyll-sitemap
