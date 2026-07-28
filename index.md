@@ -5,8 +5,6 @@ title: Domů
 
 {% include nav.html %}
 
-<script src="/assets/js/dropdown.js"></script>
-
 # 👋 Vítejte na mém webu! -Michal
 
 Jsem moc rád, že jste se sem zastavili. Tato stránka je postavená pomocí
