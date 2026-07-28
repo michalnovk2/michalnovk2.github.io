@@ -73,3 +73,58 @@
   align-items: center;
   gap: 0;
 }
+
+// Kontejner, který drží ikonu i side menu pohromadě (kvůli hoveru)
+.side-menu-trigger {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  z-index: 100;
+}
+
+// Samotná hamburger ikona
+.hamburger-icon {
+  background-color: #a8c686;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px 0 0 4px;
+}
+
+// Skryté postranní menu - vysunuté mimo obrazovku
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -220px;         // schované mimo obrazovku
+  width: 220px;
+  height: 100vh;
+  background-color: #a8c686;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  transition: right 0.3s ease;
+  box-shadow: -4px 0 10px rgba(0,0,0,0.2);
+}
+
+.side-menu a {
+  color: white !important;
+  text-decoration: none;
+  padding: 14px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.side-menu a:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+// Vysune se buď při kliknutí (mobil i desktop) NEBO při najetí myší (jen desktop)
+.side-menu.open {
+  right: 0;
+}
+
+@media (hover: hover) {
+  .side-menu-trigger:hover .side-menu {
+    right: 0;
+  }
+}
