@@ -4,6 +4,7 @@ title: Domů
 ---
 
 {% include nav.html %}
+{% include sidemenu.html %}
 
 # 👋 Vítejte na mém webu! -Michal
 
