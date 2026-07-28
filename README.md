@@ -3,6 +3,9 @@
 Tento balíček obsahuje minimální web postavený na Jekyllu s předpřipraveným
 GitHub tématem **Cayman**.
 
+## Licence
+© 2026 michalnovk2. Všechna práva vyhrazena. Viz soubor [LICENSE](LICENSE).
+
 ## Soubory
 
 - `_config.yml` – konfigurace webu a nastavení tématu
