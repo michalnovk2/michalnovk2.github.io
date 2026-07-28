@@ -4,7 +4,7 @@ Tento balíček obsahuje minimální web postavený na Jekyllu s předpřipraven
 GitHub tématem **Cayman**.
 
 ## Licence
-© 2026 michalnovk2. Práva vyhrazena vlastníkem repozitáře. Více informací viz soubor [LICENSE](LICENSE).
+© 2026. Práva vyhrazena vlastníkem repozitáře. Více informací viz soubor [LICENSE](LICENSE).
 
 ## Soubory
 
