@@ -3,7 +3,7 @@ layout: default
 title: Domů
 ---
 
-
+{% include nav.html %}
 
 <script src="/assets/js/dropdown.js"></script>
 
